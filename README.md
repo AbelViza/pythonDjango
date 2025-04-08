@@ -5,12 +5,12 @@ Preparación de entorno
 Para la preparación del entorno voy a utilizar el bash de git el cual pueden descargar de la siguiente dirección:
 https://git-scm.com/download/win <br>
 
-$ py -m venv .env <br>
-$ source .env/Scripts/activate <br>
-$ deactivate <br>
-$ pip install django -U <br>
-$ C:/Python39/python.exe -m pip install --upgrade pip <br>
-$ pip freeze <br>
+$ py -m venv .env                                          -> Crea un entorno virtual <br>
+$ source .env/Scripts/activate                             -> Activa el entorno virtual <br>
+$ deactivate                                               -> Desactiva el entorno virtual <br>
+$ pip install django -U                                    -> Instalar Django <br>
+$ C:/Python39/python.exe -m pip install --upgrade pip      -> Actualizar pip <br>
+$ pip freeze                                               -> Genera lista de bibliotecas instaladas<br>
 
 # Iniciar Proyecto
 $ django-admin startproject < nombre-proyecto > < ruta-creación ><br>
