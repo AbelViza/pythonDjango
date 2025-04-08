@@ -35,9 +35,9 @@ $ py manage.py startapp < nombre-aplicación > <br>
 Crea la carpeta<br>
 < nombre-aplicación >
 |_ __init__.py Declarar el proyecto como modulo de python<br>
-|_ admin.py Se encarga de registrar los modelos
-|_ apps.py Configuración de app
-|_ models.py Definir modelos de datos
-|_ tests.py Para pruebas
-|_ views.py 
-|_ [migrations] Modulo de python, se encarga de grabar los cambios en la base de datos
+|_ admin.py Se encarga de registrar los modelos<br>
+|_ apps.py Configuración de app<br>
+|_ models.py Definir modelos de datos<br>
+|_ tests.py Para pruebas<br>
+|_ views.py <br>
+|_ [migrations] Modulo de python, se encarga de grabar los cambios en la base de datos<br>
