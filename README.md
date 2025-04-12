@@ -33,7 +33,7 @@ $ py manage.py runserver<br>
 # Iniciar una aplicación
 $ py manage.py startapp < nombre-aplicación > <br>
 Crea la carpeta<br>
-< nombre-aplicación >
+< nombre-aplicación ><br>
 |_ __init__.py Declarar el proyecto como modulo de python<br>
 |_ admin.py Se encarga de registrar los modelos<br>
 |_ apps.py Configuración de app<br>
